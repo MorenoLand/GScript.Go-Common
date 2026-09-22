@@ -2,9 +2,9 @@
 
 GScript.Go-Common contains platform-independent Go libraries and utilities shared by MorenoLand projects. It is kept independent from any one client, server, editor, or game runtime so shared behavior can be tested and versioned once.
 
-## Current libraries
+## Shared components
 
-The repository currently includes an MPQ reader that supports standard MPQ headers, encrypted hash and block tables, listfiles, sector offset tables, raw sectors, zlib sectors, and the standard file-key rules used by the bundled archives. Additional reusable framework and tooling code belongs here when it has more than one legitimate consumer.
+Packages in this repository are platform-independent Go components and utilities shared by multiple MorenoLand projects. Add a component here when it has more than one legitimate consumer; keep project-specific behavior in the owning repository.
 
 ## Development
 
